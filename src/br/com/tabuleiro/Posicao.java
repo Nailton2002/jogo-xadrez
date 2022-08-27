@@ -28,11 +28,6 @@ public class Posicao {
 	public void setColuna(int coluna) {
 		this.coluna = coluna;
 	}
-
-//	@Override
-//	public String toString() {
-//		return "Posicao [linha=" + linha + ", coluna=" + coluna + "]";
-//	}
 	
 	@Override
 	public String toString() {
