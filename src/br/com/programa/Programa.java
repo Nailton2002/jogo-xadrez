@@ -1,12 +1,13 @@
 package br.com.programa;
 
-import br.com.tabuleiro.Tabuleiro;
+import br.com.xadrez.PartidaXadrez;
 
 public class Programa {
 
 	public static void main(String[] args) {
 
-		Tabuleiro tabuleiro = new Tabuleiro(8, 8);
+		PartidaXadrez partidaXadrez = new PartidaXadrez();
+		InterfaceUsuario.imprimindoTabuleiro(partidaXadrez.getPecas());
 	}
 
 }
